@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="My Template">
+    <meta name="keywords" content="">
+    <meta name="author" content="Anuraj Rajendran">  
+    <head>
+        <title>My Template</title>
+       <link rel="shortcut icon" type="image/png" href="assets/images/static/logo.png" />
+        <link rel="manifest" href="manifest.json" />
+    </head>  
+
+    <body>
+        <main>
+           <h2>My Template</h2>
+           <first-component></first-component>
+           <second-component></second-component>
+        </main>
+
+        <script>
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.register('/profile-worker.js')
+            }
+        </script>
+    </body>
+</html>

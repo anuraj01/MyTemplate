@@ -1,0 +1,8 @@
+{
+    "name": "My Template",
+    "short_name": "My Template",
+    "start_url": ".",
+    "display":"standalone",
+    "background_color": "#121212",
+    "description": "My Template"
+}
